@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import './globals.css';
+import './globals.css';  // ← ESTO ES CRUCIAL
 
 export const metadata: Metadata = {
   title: 'Maneki Sushi Fusion Food | Auténtica Cocina Nikkei en Loja',
