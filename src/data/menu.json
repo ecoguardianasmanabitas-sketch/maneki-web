@@ -1,0 +1,51 @@
+{
+  "categories": [
+    {
+      "id": "entrantes",
+      "name": "Entrantes",
+      "kanji": "前菜",
+      "items": [
+        {
+          "id": "edamame",
+          "name": "Edamame",
+          "description": "Vainas de soya al vapor con sal marina",
+          "price": 4.50,
+          "tags": ["vegano"],
+          "image": "https://images.unsplash.com/photo-1564093497595-5938a8a1e84f?w=800"
+        },
+        {
+          "id": "gyoza",
+          "name": "Gyoza (6 unidades)",
+          "description": "Empanadillas japonesas de cerdo y verduras a la plancha",
+          "price": 6.50,
+          "tags": ["top"],
+          "image": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=800"
+        }
+      ]
+    },
+    {
+      "id": "especiales",
+      "name": "Especiales Maneki",
+      "kanji": "特製",
+      "items": [
+        {
+          "id": "acevichado",
+          "name": "Acevichado Roll",
+          "description": "Nuestra creación estrella. Fusión Nikkei con ceviche fresco",
+          "price": 12.50,
+          "tags": ["top", "fusion"],
+          "image": "https://images.unsplash.com/photo-1617196034796-73dfa7b1fd5f?w=800",
+          "featured": true
+        },
+        {
+          "id": "ceviche-nikkei",
+          "name": "Ceviche Nikkei",
+          "description": "Pescado fresco en leche de tigre con toque wasabi",
+          "price": 14.00,
+          "tags": ["picante", "chef"],
+          "image": "https://images.unsplash.com/photo-1625938145312-c173e39dbcbf?w=800"
+        }
+      ]
+    }
+  ]
+}
