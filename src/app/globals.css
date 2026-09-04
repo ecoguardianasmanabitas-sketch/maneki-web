@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+JP:wght@400;700&family=Playfair+Display:wght@400;700;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+JP:wght@400;700&family=Playfair+Display:wght@400;700;900&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -12,4 +12,25 @@ body {
   font-family: 'Inter', sans-serif;
   background: #FAFAFA;
   color: #1A1A1A;
+}
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #1A1A1A;
+}
+::-webkit-scrollbar-thumb {
+  background: #BC002D;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
+
+/* Kanji vertical */
+.writing-mode-vertical {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
 }
